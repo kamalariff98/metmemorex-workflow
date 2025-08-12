@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-y: auto !important;
+  width: 100% !important;
+}
+
+/* Layout Styles */
+.main-content {
+  max-width: 1600px;
+  min-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px 10px 20px;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  margin-top: 48px;
+  background: #fff;
+}
+
+/* Header and Logo Styles */
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+/* Card Styles */
+.ant-card,
+.submission-card-height,
+.ant-collapse-item {
+  box-shadow: -1px 4px 6px -1px rgba(0, 0, 0, 0.1), -1px -2px 4px -1px
+    rgba(0, 0, 0, 0.06);
+}
+
+@keyframes glowPurple {
+  0%,
+  100% {
+    box-shadow: 0 0 5px #722ed1;
+  }
+  50% {
+    box-shadow: 0 0 15px #722ed1;
+  }
+}
+
+@keyframes glowGold {
+  0%,
+  100% {
+    box-shadow: 0 0 5px #faad14;
+  }
+  50% {
+    box-shadow: 0 0 15px #faad14;
+  }
+}
+
+.ant-collapse-header-text {
+  font-weight: 500;
+}
